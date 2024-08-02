@@ -15,10 +15,19 @@ config file including node_modules will be added to **gitignore**
 
 **Database Lesson Learned:** In this case using Cloudinary to store  images instead of mongodb would have been a better choice.
 
+**The big idea**
+
+1. User should be able to login first, using **googleauth** for authentication.
+2. The Home page- Has productList and cart icon on the left
+3. The use is able to filter products by price etc - these products should be coming from an already populated seedDatabase to start the store off with some products in store.
+4. The user is able to add products but only delete and update what they added
+5. The cart records User activities and keeps the session for 14 days.
+
+
 ## Optimizations
 
 Sticking with simplicity while building this site would have sufficed, using a framework and a seedDatabase was probably not the best decisions. I encountered issues with react libraries that I had intended to use for state management (react-redux), troubleshooting introduced more complexities to the site which lead me into one rabbit hole after another until I opted for using context (fun times🥶). I intended to scratch out the seedDatabase entirely and work with existing Apis and use pure Javascript to build this again.
 
 ## Lessons Learned:
 
-Documentation is king! This still rings true. I am working on improving the application and working on bugs that don't seem to go away this has made me lean more towards TDD using Jest to fall into the habit of testing as i develop whenever the need arises. 
+Code doesn't always cooperate with whats in your head! And separation of concerns helps immensely with readability however in this case after separating concerns I lost track of the pieces in turn breaking the bigger picture, definitely separate concerns before building the leggo pieces didn't come together
