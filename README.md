@@ -8,13 +8,11 @@
 
 **Database and APIs:** In this App I tried using seedDatabase which I was intending on fetching as productlist and working with just that database in the App. I reality it would have easier if I had just just external api's like i did <a href= "https://github.com/Felicia-Mayeyane/PantryPal-App"> Here </a> I encountered problems with the database not being populated as intended.
 
-**Database Lesson Learned: ** In this case using Cloudinary to store  images instead of mongodb would have been a better choice.
+**Database Lesson Learned:** In this case using Cloudinary to store  images instead of mongodb would have been a better choice.
 
 ## Optimizations
 
-Security and making changes to the interface. The application will move to a cloud based storage in order to be store video content from the application, at this time all video recording done on the app can be dowloaded to the users machine however cannot be stored in the current database, this is due to the size of video content.
-
-
+Sticking with simplicity while building this site would have sufficed, using a framework and a seedDatabase was probably not the best choice. I encountered issues with react libraries that I had intended to use for state management (react-redux), troubleshooting introduced more complexities to the site which lead me into one rabbit hole after another (fun times🥶). I intended to scratch out the seedDatabase entirely and work with existing Apis and use pure Javascript to build this again.
 
 ## Lessons Learned:
 
