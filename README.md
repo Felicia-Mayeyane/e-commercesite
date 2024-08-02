@@ -31,3 +31,10 @@ Sticking with simplicity while building this site would have sufficed, using a f
 ## Lessons Learned:
 
 Code doesn't always cooperate with whats in your head! And separation of concerns helps immensely with readability however in this case after separating concerns I lost track of the vital pieces. seprate concerns before building! My biggest challenge with this project was working with seeded Database, it did not pan out as expected, logically it seemed like a good idea.
+
+
+
+## Frontend and Backend Folders:
+<p> Basic site without framework or templating langauge, purely javascript - html, css , Nodejs and Express</p>
+
+**This is a different project from the above**
