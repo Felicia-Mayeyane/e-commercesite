@@ -5,9 +5,9 @@
 **Tech used:** HTML, CSS, JavaScript, React,  NodeJs, PassportJs, ExpressJS and MongoDB
 **Desgin Architecture** MVC
 
-**Database and APIs** In this App I tried using seedDatabase which I was intending on fetching as productlist and working with just that database in the App. I reality it would have easier if I had just just external api's like i did <a href></a> I encountered problems with the database not being populated as intended.
+**Database and APIs** In this App I tried using seedDatabase which I was intending on fetching as productlist and working with just that database in the App. I reality it would have easier if I had just just external api's like i did <a href= "https://github.com/Felicia-Mayeyane/PantryPal-App"></a> I encountered problems with the database not being populated as intended.
 
-**Database Lesson Learned ** In this case using Cloudinary for images instead of mongodb would have been a better choicw
+**Database Lesson Learned ** In this case using Cloudinary to store  images instead of mongodb would have been a better choice.
 
 ## Optimizations
 
