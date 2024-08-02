@@ -3,6 +3,7 @@
 ## How It's Made:
 
 **Tech used:** HTML, CSS, JavaScript, React,  NodeJs, PassportJs, ExpressJS and MongoDB
+
 **Desgin Architecture** MVC
 
 **Database and APIs** In this App I tried using seedDatabase which I was intending on fetching as productlist and working with just that database in the App. I reality it would have easier if I had just just external api's like i did <a href= "https://github.com/Felicia-Mayeyane/PantryPal-App"> Here </a> I encountered problems with the database not being populated as intended.
