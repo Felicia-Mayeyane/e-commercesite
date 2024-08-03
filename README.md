@@ -1,36 +1,40 @@
 # e-commercesite
-<p> An Ecommerce site that displays products available in the database and enables uses to create, read, update and delete products. For security the user has to be loggedin to make an order also upon refresh sessions are not removed.</p>
+<p> An Ecommerce site that displays products available in the database and enables uses to create, read, update and delete products. For security the user has to be loggedin to make an order also upon refresh sessions are not removed. Verified Admins are the only one's that can add, delete, update products- </p>
 
 ## How It's Made:
 
 **Tech used:** HTML, CSS, JavaScript, React,  NodeJs, PassportJs, ExpressJS and MongoDB
 
+**Payment Method:** Stripe
+
+**Security:** JWT
+
+**Testing APIs:** Postman
+
 **Desgin Architecture:** MVC
 
-**Database and APIs:** In this App I tried using seedDatabase which I was intending on fetching as productlist and working with just that database in the App. I reality it would have easier if I had just just external api's like i did <a href= "https://github.com/Felicia-Mayeyane/PantryPal-App"> Here </a> I encountered problems with the database not being populated as intended.
-
-**Configurations:** I used environment variables to house ID and secrets using doenv file - This file include port, mongo_uri, googleID, googleSecrets,  and sessionSecret.
+**Configurations:** I used environment variables to house ID and secrets using doenv file - This file include port, mongo_uri, stripe keys etc.
 config file including node_modules will be added to **gitignore**
 
+**NPM used:** <i>See Package.json </i>
 
-**Database Lesson Learned:** In this case using Cloudinary to store  images instead of mongodb would have been a better choice.
+**The big idea** something similar to this just with a robust backend <a href= "https://github.com/Felicia-Mayeyane/PantryPal-App"> Here </a>
 
-**The big idea**
+1. Prioritize security to secure users login details- I used password hashing (for general users). Ensuriing CRUD privileges to admins are not accessible to customers through verified tokens.
 
-1. User should be able to login first, using **googleauth** for authentication.
-2. The Home page- Has productList and cart icon on the left
-3. The use is able to filter products by price etc - these products should be coming from an already populated seedDatabase to start the store off with some products in store.
-4. The user is able to add products but only delete and update what they added
-5. The cart records User activities and keeps the session for 14 days.
+2. User, products, orders and cart information securely stored in relevant database
 
+3. Secure payment routes to keep track of user types,added ability for admin to track monthly income.
+
+4. Filter products and keep products in cart 
 
 ## Optimizations
 
-Sticking with simplicity while building this site would have sufficed, using a framework and a seedDatabase was probably not the best decisions. I encountered issues with react libraries that I had intended to use for state management (react-redux), troubleshooting introduced more complexities to the site which lead me into one rabbit hole after another until I opted for using context (fun times🥶). I intended to scratch out the seedDatabase entirely and work with existing Apis and use pure Javascript to build this again.
+Working on optimizing the UI -I encountered challenges with the UI and landed on the decision to prioritize backend functionality and only back track to the UI oonce I have established basic functionality of the site(fun times🥶). I intend on working on the frontend design- it is doable and less tedious now, as the backend has helped me put things into perspective first.
 
 ## Lessons Learned:
 
-Code doesn't always cooperate with whats in your head! And separation of concerns helps immensely with readability however in this case after separating concerns I lost track of the vital pieces. seprate concerns before building! My biggest challenge with this project was working with seeded Database, it did not pan out as expected, logically it seemed like a good idea.
+Code doesn't always cooperate with whats in your head! And separation of concerns is king as far as readability and maintainability is concerned,  however in this case I separated my concerns a little too deep into the workflow.  I lost track of the vital pieces of my UI and ended up aborting mission in order to rebuild the skeleton (backend) IK IK I can explain! 😆 My biggest challenge with this project was working with react hooks I've never used before, it did not pan out as expected, logically it seemed like a good idea.
 
 
 
