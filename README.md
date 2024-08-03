@@ -3,7 +3,7 @@
 
 ## How It's Made:
 
-**Tech used:** HTML, CSS, JavaScript, React,  NodeJs, PassportJs, ExpressJS and MongoDB
+**Tech used:** HTML, CSS, JavaScript, React, NodeJs, ExpressJS and MongoDB
 
 **Payment Method:** Stripe
 
