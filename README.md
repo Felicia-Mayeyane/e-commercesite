@@ -1,5 +1,5 @@
-# e-commercesite
-<p> An Ecommerce site that displays products available in the database and enables uses to create, read, update and delete products. For security the user has to be loggedin to make an order also upon refresh sessions are not removed. Verified Admins are the only one's that can add, delete, update products- </p>
+# Anaya E-commercesite
+<p> An Ecommerce site that displays products available in the database accesssbile to the customer. For security the user has to be loggedin to make an order/ view their cart also upon refresh sessions are not removed. Verified Admins are the only one's that can add, delete, update products- The admin is also able to calculate their monthly income and general stats of the site. The customer can safely make their onlice payment through stripe</p>
 
 ## How It's Made:
 
