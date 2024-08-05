@@ -26,7 +26,12 @@ config file including node_modules will be added to **gitignore**
 
 3. Secure payment routes to keep track of user types,added ability for admin to track monthly income.
 
-4. Filter products and keep products in cart 
+4. Filter products and keep products in cart
+
+   ## UI:
+   
+   **NPM used:** <i>See Package.json </i>
+   
 
 ## Optimizations
 
@@ -39,6 +44,4 @@ Code doesn't always cooperate with whats in your head! And separation of concern
 
 
 ## Frontend and Backend Folders:
-<p> Basic site without framework or templating langauge, purely javascript - html, css , Nodejs and Express</p>
 
-**This is a different project from the above**
