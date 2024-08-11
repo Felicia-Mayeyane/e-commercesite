@@ -48,6 +48,11 @@ Code doesn't always cooperate with whats in your head! And separation of concern
 Postman: Using CRUD to populate mongodb database/ change data in the database
 
 
+<img width="1436" alt="Screenshot 2024-08-11 at 18 05 23" src="https://github.com/user-attachments/assets/824cbd20-8eae-4983-8356-bb8c2316516b">
+
+
+**MongoDB Snippet**
+
 
 
 
