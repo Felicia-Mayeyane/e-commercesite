@@ -54,6 +54,7 @@ Postman: Using CRUD to populate mongodb database/ change data in the database
 **MongoDB Snippet**
 
 
+<img width="1436" alt="Screenshot 2024-08-11 at 18 09 45" src="https://github.com/user-attachments/assets/8ee2ded5-fc70-4038-a1e8-cae340d05d4b">
 
 
 
