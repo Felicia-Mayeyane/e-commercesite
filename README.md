@@ -43,5 +43,13 @@ Code doesn't always cooperate with whats in your head! And separation of concern
 
 
 
-## Frontend and Backend Folders:
+## Backend Snippets :
+
+Postman: Using CRUD to populate mongodb database/ change data in the database
+
+
+
+
+
+
 
