@@ -29,9 +29,17 @@ config file including node_modules will be added to **gitignore**
 4. Filter products and keep products in cart
 
    ## UI:
+
+   
+
+https://github.com/user-attachments/assets/c0d1c42c-0375-4096-99a2-ce5353a880a4
+
+
+
+
    
    **NPM used:** <i>See Package.json </i>
-   
+
 
 ## Optimizations
 
@@ -45,6 +53,7 @@ Code doesn't always cooperate with whats in your head! And separation of concern
 
 1. Unique prop key in rendering orders <i> see Cart.js and CartRedux</i>
 2. Fixing calculations in order summary <i> see Cart.js</i>
+3. Admin Dashboard <i>Chart.js, FeaturedInfo </i>
 
 ## Backend Snippets :
 
