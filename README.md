@@ -39,9 +39,12 @@ Working on optimizing the UI -I encountered challenges with the UI and landed on
 
 ## Lessons Learned:
 
-Code doesn't always cooperate with whats in your head! And separation of concerns is king as far as readability and maintainability is concerned,  however in this case I separated my concerns a little too deep into the workflow.  I lost track of the vital pieces of my UI and ended up aborting mission in order to rebuild the skeleton (backend) IK IK I can explain! 😆 My biggest challenge with this project was working with react hooks I've never used before, it did not pan out as expected, logically it seemed like a good idea.
+Code doesn't always cooperate with whats in your head! And separation of concerns is king as far as readability and maintainability is concerned,  however in this case I separated my concerns a little too deep into the workflow.  I lost track of the vital pieces of my UI and ended up aborting mission in order to rebuild the skeleton (backend) IK IK I can explain! 😆 My biggest challenge with this project was working with react hooks, it did not pan out as expected, logically it seemed like a good idea.
 
+## Issues:
 
+1. Unique prop key in rendering orders <i> see Cart.js and CartRedux</i>
+2. Fixing calculations in order summary <i> see Cart.js</i>
 
 ## Backend Snippets :
 
